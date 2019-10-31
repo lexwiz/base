@@ -1,4 +1,4 @@
-uuid: 7a8446b2-9d74-43f9-8264-82770ce335cc
+uuid: 9b192e58-ece2-4e5b-9def-e7dce93f15ba
 langcode: ru
 status: true
 dependencies:
@@ -9,7 +9,7 @@ field_name: field_shema
 entity_type: node
 type: string
 settings:
-  max_length: 50
+  max_length: 100
   is_ascii: false
   case_sensitive: false
 module: core

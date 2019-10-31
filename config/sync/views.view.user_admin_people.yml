@@ -1,4 +1,4 @@
-uuid: 160c6f32-3e27-4f15-9e97-5c86265b4e6e
+uuid: f4eadfd1-a38c-4230-a52c-58f07f3f597a
 langcode: ru
 status: true
 dependencies:
@@ -38,7 +38,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Фильтр
           reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -53,10 +53,10 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Предыдущий'
+            next: 'Следующий ›'
+            first: '« Первая'
+            last: 'Последняя »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -251,7 +251,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Статус
           exclude: false
           alter:
             alter_text: false
@@ -647,7 +647,7 @@ display:
               administrator: '0'
           is_grouped: true
           group_info:
-            label: Status
+            label: Статус
             description: ''
             identifier: status
             optional: true

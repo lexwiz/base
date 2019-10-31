@@ -1,4 +1,4 @@
-uuid: cb5e21ee-d6fa-400c-b499-4c5f2bb4ffb7
+uuid: 23a87d6a-e899-4748-8c43-46bb75b57f9c
 langcode: ru
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Help
+  label: Справка
   provider: help
   label_display: '0'
 visibility: {  }

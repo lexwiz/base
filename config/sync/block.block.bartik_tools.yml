@@ -1,4 +1,4 @@
-uuid: 61553061-f89b-473a-b595-6f2ce6dbd5b4
+uuid: 10aa246f-eaf0-4ff1-9563-35095b50bc0d
 langcode: ru
 status: false
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+  default_config_hash: rH6PpAn7-RScha1rGkohGAYSSh_1OVeZzioJPzPw6O4
 id: bartik_tools
 theme: bartik
 region: sidebar_first
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Инструменты
   provider: system
   label_display: visible
   level: 1

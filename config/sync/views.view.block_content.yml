@@ -1,4 +1,4 @@
-uuid: b5e1ff65-3550-4bf7-8049-30367a0a179b
+uuid: 807996ba-27a7-4a61-87b1-103be1d66c8f
 langcode: ru
 status: true
 dependencies:
@@ -55,8 +55,8 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Предыдущий'
+            next: 'Следующий ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -509,7 +509,7 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: -1
+      max-age: 0
       tags: {  }
   page_1:
     display_plugin: page
@@ -534,5 +534,5 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: -1
+      max-age: 0
       tags: {  }

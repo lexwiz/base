@@ -1,4 +1,4 @@
-uuid: fe555462-3425-4505-b161-ec611bafd30b
+uuid: 65573cfa-1d42-45f5-8135-400833311d9b
 langcode: ru
 status: true
 dependencies:
@@ -40,7 +40,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Фильтр
           reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -349,7 +349,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Date
+          label: Дата
           exclude: false
           alter:
             alter_text: false
@@ -451,7 +451,7 @@ display:
           relationship: uid
           group_type: group
           admin_label: ''
-          label: User
+          label: Пользователь
           exclude: false
           alter:
             alter_text: false
@@ -683,7 +683,7 @@ display:
           1: AND
       css_class: admin-dblog
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -700,7 +700,7 @@ display:
       display_extenders: {  }
       path: admin/reports/dblog
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

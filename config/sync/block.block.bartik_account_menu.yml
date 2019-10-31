@@ -1,4 +1,4 @@
-uuid: 3a6d69ee-72b2-41c7-babf-220372c84a89
+uuid: 0d17317f-9e25-4200-b8eb-abb757239caf
 langcode: ru
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+  default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
 id: bartik_account_menu
 theme: bartik
 region: secondary_menu
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'User account menu'
+  label: 'Меню учётной записи пользователя'
   provider: system
   label_display: '0'
   level: 1

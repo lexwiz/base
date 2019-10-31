@@ -1,4 +1,4 @@
-uuid: 8639ba5a-a184-4e75-9429-b25ea357c1e4
+uuid: 710b91be-093b-4ec4-9588-7a9a633d9b84
 langcode: ru
 status: true
 dependencies:
@@ -51,17 +51,12 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: full
+        type: mini
         options:
           items_per_page: 10
           offset: 0
           id: 0
           total_pages: 0
-          tags:
-            previous: ‹‹
-            next: ››
-            first: '« First'
-            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -70,7 +65,9 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          quantity: 9
+          tags:
+            previous: ‹‹
+            next: ››
       sorts:
         sticky:
           id: sticky
@@ -109,7 +106,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: All
+            title: Все
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed

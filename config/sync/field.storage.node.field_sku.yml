@@ -1,4 +1,4 @@
-uuid: c93ec4be-0e2e-4fa6-91ef-0cef99df4ae2
+uuid: 2684cd73-08fa-4fb2-bb8c-ef6ec1c9dd06
 langcode: ru
 status: true
 dependencies:
@@ -9,7 +9,9 @@ id: node.field_sku
 field_name: field_sku
 entity_type: node
 type: serial
-settings: {  }
+settings:
+  start_value: 100001
+  init_existing_entities: 1
 module: serial
 locked: false
 cardinality: 1

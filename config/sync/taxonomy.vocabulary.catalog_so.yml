@@ -1,8 +1,0 @@
-uuid: 01f5d0c4-b388-48ab-9aa3-f22e8a3c5533
-langcode: ru
-status: true
-dependencies: {  }
-name: 'Catalog SO'
-vid: catalog_so
-description: ''
-weight: 0

@@ -1,4 +1,4 @@
-uuid: 1e5dc9af-6fe3-4226-b504-fc1f72222230
+uuid: 1768eb1f-2f9f-4a2a-aa99-b4c59af4822f
 langcode: ru
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: 'Содержимое страницы'
   provider: system
   label_display: '0'
 visibility: {  }

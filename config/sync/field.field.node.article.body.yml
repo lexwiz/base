@@ -1,4 +1,4 @@
-uuid: e91e5f5d-aa0d-45a6-9b07-ea3824bea488
+uuid: 85f42fb0-9333-4620-a3bc-e7ed5ae8bd6d
 langcode: ru
 status: true
 dependencies:
@@ -13,7 +13,7 @@ id: node.article.body
 field_name: body
 entity_type: node
 bundle: article
-label: Body
+label: Содержимое
 description: ''
 required: false
 translatable: true

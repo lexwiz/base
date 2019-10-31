@@ -1,4 +1,4 @@
-uuid: 1afe1953-9c3a-4667-9795-ebbb6ffdabdc
+uuid: be26cd72-7fa8-416f-9ede-0fd4a1857263
 langcode: ru
 status: true
 dependencies:
@@ -182,7 +182,7 @@ display:
     display_options:
       display_description: 'Список новых пользователей'
       block_description: 'Новые пользователи'
-      block_category: User
+      block_category: Пользователь
       display_extenders: {  }
     cache_metadata:
       contexts:

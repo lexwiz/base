@@ -1,4 +1,4 @@
-uuid: b7fd83d4-cdc5-46ab-ab75-35bb6c42bc96
+uuid: fc6a2b55-67a0-448b-9850-228f113f6c20
 langcode: ru
 status: true
 dependencies:
@@ -13,7 +13,7 @@ id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Body
+label: Содержимое
 description: ''
 required: false
 translatable: true

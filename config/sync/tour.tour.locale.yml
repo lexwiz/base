@@ -1,4 +1,4 @@
-uuid: d2f63b3d-5938-40d9-934a-674f54dc9399
+uuid: 4515c262-0265-4ffd-8278-7eb8294040a1
 langcode: ru
 status: true
 dependencies:
@@ -30,7 +30,7 @@ tips:
   locale-search:
     id: locale-search
     plugin: text
-    label: Search
+    label: Поиск
     body: 'Введите опредёленное слово или предложение, которое необходимо перевести. Можно ввести только часть слова.'
     weight: 3
     attributes:

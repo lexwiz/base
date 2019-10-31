@@ -1,4 +1,4 @@
-uuid: 0fb032e8-8940-42a9-b767-d977315c0358
+uuid: c58abac2-a68d-470e-af22-f0d5e89e4514
 langcode: ru
 status: true
 dependencies:
@@ -13,7 +13,7 @@ id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
-label: Body
+label: Содержимое
 description: ''
 required: false
 translatable: true

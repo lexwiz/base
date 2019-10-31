@@ -1,7 +1,0 @@
-status: 1
-pattern: '[node:field_sku]'
-php: false
-escape: false
-dependencies:
-  config:
-    - node.type.product_arena

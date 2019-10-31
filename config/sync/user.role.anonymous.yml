@@ -1,9 +1,9 @@
-uuid: c3e63785-4328-4ee1-bd6c-f435b92e1fb2
+uuid: b1045086-27b6-40ec-b622-efcc428e9b3e
 langcode: ru
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
 label: 'Анонимный пользователь'
 weight: 0
@@ -14,4 +14,3 @@ permissions:
   - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
-  - 'view commerce_product'
