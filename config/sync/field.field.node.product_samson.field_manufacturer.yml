@@ -1,0 +1,29 @@
+uuid: d6f86e2b-1a8a-472d-a19a-1595ba3b21a5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manufacturer
+    - node.type.product_samson
+    - taxonomy.vocabulary.manufacturers
+id: node.product_samson.field_manufacturer
+field_name: field_manufacturer
+entity_type: node
+bundle: product_samson
+label: Manufacturer
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      manufacturers: manufacturers
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

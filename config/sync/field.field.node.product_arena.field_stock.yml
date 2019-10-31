@@ -1,0 +1,23 @@
+uuid: 13a4bf35-0e66-4653-b860-566893c441b6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stock
+    - node.type.product_arena
+id: node.product_arena.field_stock
+field_name: field_stock
+entity_type: node
+bundle: product_arena
+label: Stock
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

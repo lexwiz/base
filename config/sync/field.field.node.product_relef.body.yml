@@ -1,0 +1,22 @@
+uuid: 9f15c8f4-1c56-4f30-9c07-02d7d725b8c1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.product_relef
+  module:
+    - text
+id: node.product_relef.body
+field_name: body
+entity_type: node
+bundle: product_relef
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

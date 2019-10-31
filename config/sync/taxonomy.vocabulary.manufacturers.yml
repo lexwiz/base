@@ -1,0 +1,8 @@
+uuid: da86edd5-c799-48ea-80cb-174187b25b3c
+langcode: ru
+status: true
+dependencies: {  }
+name: Manufacturers
+vid: manufacturers
+description: ''
+weight: 0

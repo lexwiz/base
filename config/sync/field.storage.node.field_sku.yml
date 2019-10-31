@@ -1,0 +1,19 @@
+uuid: c93ec4be-0e2e-4fa6-91ef-0cef99df4ae2
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - serial
+id: node.field_sku
+field_name: field_sku
+entity_type: node
+type: serial
+settings: {  }
+module: serial
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

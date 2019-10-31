@@ -1,0 +1,19 @@
+uuid: 484027ab-2018-4c8e-a7c7-ca79d7be2c98
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sku_m
+    - node.type.product_samson
+id: node.product_samson.field_sku_m
+field_name: field_sku_m
+entity_type: node
+bundle: product_samson
+label: 'SKU M'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

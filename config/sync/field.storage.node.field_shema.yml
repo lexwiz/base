@@ -1,0 +1,21 @@
+uuid: 7a8446b2-9d74-43f9-8264-82770ce335cc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_shema
+field_name: field_shema
+entity_type: node
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

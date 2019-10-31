@@ -1,0 +1,19 @@
+uuid: 9f8eb928-efc6-4c46-9adc-9d746125e7d6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_photo_ro
+field_name: field_photo_ro
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

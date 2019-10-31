@@ -1,0 +1,19 @@
+uuid: 877d2251-bd34-4ed9-a170-06e6dbdadf0a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_barcode
+    - node.type.product_relef
+id: node.product_relef.field_barcode
+field_name: field_barcode
+entity_type: node
+bundle: product_relef
+label: Barcode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

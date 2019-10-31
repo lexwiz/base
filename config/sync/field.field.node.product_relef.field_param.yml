@@ -1,0 +1,21 @@
+uuid: 9c5d53dd-431f-4471-a412-77b7e0442f48
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_param
+    - node.type.product_relef
+  module:
+    - text
+id: node.product_relef.field_param
+field_name: field_param
+entity_type: node
+bundle: product_relef
+label: Param
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,8 @@
+uuid: 92a115da-7d4c-463c-9df6-04aef14f6163
+langcode: ru
+status: true
+dependencies: {  }
+name: Catalog
+vid: catalog
+description: ''
+weight: 0

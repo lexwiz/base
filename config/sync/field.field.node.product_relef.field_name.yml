@@ -1,0 +1,19 @@
+uuid: f75d4957-994b-45d4-afc8-3d8ef3c296df
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.product_relef
+id: node.product_relef.field_name
+field_name: field_name
+entity_type: node
+bundle: product_relef
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

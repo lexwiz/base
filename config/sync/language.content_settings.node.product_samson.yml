@@ -1,0 +1,11 @@
+uuid: f2eaed4e-6bd9-4966-9d1b-81f789c374e5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.product_samson
+id: node.product_samson
+target_entity_type_id: node
+target_bundle: product_samson
+default_langcode: site_default
+language_alterable: false

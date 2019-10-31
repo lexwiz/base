@@ -1,0 +1,29 @@
+uuid: 47f41636-fc0e-453a-856f-c8bebe4b71c2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manufacturer
+    - node.type.product_relef
+    - taxonomy.vocabulary.manufacturers
+id: node.product_relef.field_manufacturer
+field_name: field_manufacturer
+entity_type: node
+bundle: product_relef
+label: Manufacturer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      manufacturers: manufacturers
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

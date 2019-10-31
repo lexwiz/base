@@ -1,0 +1,19 @@
+uuid: 7c84e540-b60c-42cf-afbd-156af2345d95
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_code_so
+field_name: field_code_so
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

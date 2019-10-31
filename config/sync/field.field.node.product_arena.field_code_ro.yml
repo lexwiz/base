@@ -1,0 +1,28 @@
+uuid: 256ac7a6-d2ba-487f-9be2-dba9deccc59a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_ro
+    - node.type.product_arena
+    - node.type.product_relef
+id: node.product_arena.field_code_ro
+field_name: field_code_ro
+entity_type: node
+bundle: product_arena
+label: 'Code RO'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product_relef: product_relef
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

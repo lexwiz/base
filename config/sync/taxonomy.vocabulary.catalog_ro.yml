@@ -1,0 +1,8 @@
+uuid: ea003a85-9595-4def-94c4-586ae97513fe
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Catalog RO'
+vid: catalog_ro
+description: ''
+weight: 0
